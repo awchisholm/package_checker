@@ -1,5 +1,5 @@
 import importlib
-packages = ['pandas', 'matplotlib', 'numpy', 'pygame', 'flask', 'django', 'requests', 'jupyter', 'scipy', 'tk', 'pytest', 'bs4', 'PIL']
+packages = ['pandas', 'matplotlib', 'numpy', 'pygame', 'flask', 'django', 'requests', 'scipy']
 for package in packages:
 	try:
 		var = importlib.import_module(package)
